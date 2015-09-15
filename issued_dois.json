@@ -25,6 +25,11 @@
             "data_links": [
                 "http://srm.swegrid.se/snic/bils/pub/ADH5_data/"
             ]
+        },
+        "10.17044/BILS/MG00001": {
+            "data_links": [
+                "http://"
+            ]
         }
     }
 }
