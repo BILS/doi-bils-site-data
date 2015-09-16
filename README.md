@@ -26,3 +26,5 @@ G        |   Genomics
 GA       |   Genome annotation
 MG       |   Metagenomics
 P        |   Protein
+
+Note that the DOI has 7 characters in total, i.e. if the prefix is one letter there are 6 digits, and if the prefix has two letters there are 5 digits.
