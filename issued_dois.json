@@ -1,5 +1,4 @@
 {
-    "Comment": "Note that the unique part of the DOI has to be in uppercase as this is what is returned by the DataCite search",
     "DOIs": {
         "10.5879/BILS/P000001": {
             "data_links": [
