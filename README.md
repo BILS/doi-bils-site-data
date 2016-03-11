@@ -17,9 +17,8 @@ This repo holds the data file for the doi-bils-site, *issued_dois.json*. This is
 	    }
 	}
 
-**NB!** The DOIs have to be in UPPERCASE.
 
-## DOI naming scheme
+## BILS DOI naming scheme
 prefix   |   data set type
 ---------|----------------
 G        |   Genomics
