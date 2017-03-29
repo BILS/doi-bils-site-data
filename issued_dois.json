@@ -29,6 +29,11 @@
             "data_links": [
                 "http://webdav.swestore.se/snic/bils/pub/mg00001/"
             ]
+        },
+        "10.17044/NBIS/G000003": {
+            "data_links": [
+                "https://swefreq.nbis.se/release/swegen_20161223.tar"
+            ]
         }
     }
 }
