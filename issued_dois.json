@@ -34,6 +34,11 @@
             "data_links": [
                 "https://swefreq.nbis.se/release/SweGen/swegen_20170823.tar"
             ]
+        },
+        "10.17044/NBIS/G000004": {
+            "data_links": [
+                "Please contact jonathan.cedernaes@neuro.uu.se in order to apply for access."
+            ]
         }
     }
 }
