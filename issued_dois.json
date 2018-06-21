@@ -32,7 +32,7 @@
         },
         "10.17044/NBIS/G000003": {
             "data_links": [
-                "https://swefreq.nbis.se/release/SweGen/swegen_20170823.tar"
+                "https://swefreq.nbis.se/dataset/SweGen/version/20170823/download"
             ]
         },
         "10.17044/NBIS/G000004": {
