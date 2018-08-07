@@ -6,7 +6,7 @@ This repo holds the data file for the doi-bils-site, *issued_dois.json*. This is
 
 	{
 	    "DOIs": {
-	        "10.17044/BILS/Xnnnnnnn": {
+	        "10.17044/NBIS/Xnnnnnnn": {
 	            "data_links": [
 	                "http://path/to/data/set"
 	            ]
@@ -18,7 +18,7 @@ This repo holds the data file for the doi-bils-site, *issued_dois.json*. This is
 	}
 
 
-## BILS DOI naming scheme
+## NBIS DOI naming scheme
 prefix   |   data set type
 ---------|----------------
 G        |   Genomics
@@ -27,3 +27,5 @@ MG       |   Metagenomics
 P        |   Protein
 
 Note that the DOI has 7 characters in total, i.e. if the prefix is one letter there are 6 digits, and if the prefix has two letters there are 5 digits.
+
+_As the organisation has changed name from BILS to NBIS, both terms might be encountered here and there. :) _  
