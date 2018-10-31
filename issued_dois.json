@@ -44,6 +44,12 @@
             "data_links": [
                 "adam.ameur@igp.uu.se"
             ]
+        },
+        "10.17044/NBIS/G000007": {
+            "data_links": [
+                "datacentre@scilifelab.se"
+            ]
         }
+
     }
 }
