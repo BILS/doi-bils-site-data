@@ -54,6 +54,11 @@
             "data_links": [
                 "datacentre@scilifelab.se"
             ]
+        },
+        "10.17044/NBIS/G000008": {
+            "data_links": [
+                "datacentre@scilifelab.se"
+            ]
         }
 
     }
