@@ -23,25 +23,28 @@ my $json = JSON::PP->new()->utf8()->decode($raw_json);
 my $ua   = LWP::UserAgent->new();
 
 foreach my $doi ( sort keys( %{ $json->{'DOIs'} } ) ) {
-    printf( "Processing DOI \"%s\"...\n", $doi );
-
     my $is_ok;
     my $reason;
 
     foreach my $link ( @{ $json->{'DOIs'}{$doi}{'data_links'} } ) {
         if ( $link =~ /^http/ ) {
-            my $res =
+            # It's an URL.
+            #
+
+            my $response =
               $ua->request( HTTP::Request->new( HEAD => $link ) );
-            if ( $res->is_success ) {
+            if ( $response->is_success() ) {
                 $is_ok = 1;
             }
             else {
                 $is_ok  = 0;
-                $reason = $res->status_line();
+                $reason = $response->status_line();
             }
         }
         else {
             # It's an email address.
+            #
+
             if ( Email::Valid->address( -address  => $link,
                                         -mxcheck  => 1,
                                         -tldcheck => 1,
@@ -56,10 +59,10 @@ foreach my $doi ( sort keys( %{ $json->{'DOIs'} } ) ) {
         }
 
         if ($is_ok) {
-            printf( "Ok\t%s\n", $link );
+            printf( "Ok\t%s\t%s\n", $doi, $link );
         }
         else {
-            printf( "Bad\t%s\t%s\n", $link, $reason );
+            printf( "Bad\t%s\t%s\t%s\n", $doi, $link, $reason );
         }
     } ## end foreach my $link ( @{ $json...})
 } ## end foreach my $doi ( sort keys...)

@@ -28,27 +28,15 @@ The script uses the following prerequisite Perl modules:
 Example run:
 
 $ perl validate.pl
-Processing DOI "10.17044/BILS/G000002"...
-Ok      info@nbis.se
-Processing DOI "10.17044/BILS/MG00001"...
-Ok      http://webdav.swestore.se/snic/bils/pub/mg00001/
-Processing DOI "10.17044/BILS/P000002"...
-Ok      http://srm.swegrid.se/snic/bils/pub/ADH5_data/
-Processing DOI "10.17044/NBIS/G000003"...
-Ok      https://swefreq.nbis.se/dataset/SweGen/version/20170823/download
-Processing DOI "10.17044/NBIS/G000004"...
-Ok      jonathan.cedernaes@neuro.uu.se
-Processing DOI "10.17044/NBIS/G000005"...
-Ok      https://swefreq.nbis.se/dataset/ACpop/version/20190207/download
-Processing DOI "10.17044/NBIS/G000006"...
-Ok      adam.ameur@igp.uu.se
-Processing DOI "10.17044/NBIS/G000007"...
-Ok      datacentre@scilifelab.se
-Processing DOI "10.17044/NBIS/G000008"...
-Ok      datacentre@scilifelab.se
-Processing DOI "10.5879/BILS/G000001"...
-Bad     https://export.uppmax.uu.se/b2011203/pea_gwas/  503 Service Unavailable
-Processing DOI "10.5879/BILS/GA00001"...
-Ok      http://srm.swegrid.se/snic/bils/pub/ga00001/
-Processing DOI "10.5879/BILS/P000001"...
-Ok      http://webdav.swestore.se/snic/bils/pub/procsdata/
+Ok      10.17044/BILS/G000002   info@nbis.se
+Ok      10.17044/BILS/MG00001   http://webdav.swestore.se/snic/bils/pub/mg00001/
+Ok      10.17044/BILS/P000002   http://srm.swegrid.se/snic/bils/pub/ADH5_data/
+Ok      10.17044/NBIS/G000003   https://swefreq.nbis.se/dataset/SweGen/version/20170823/download
+Ok      10.17044/NBIS/G000004   jonathan.cedernaes@neuro.uu.se
+Ok      10.17044/NBIS/G000005   https://swefreq.nbis.se/dataset/ACpop/version/20190207/download
+Ok      10.17044/NBIS/G000006   adam.ameur@igp.uu.se
+Ok      10.17044/NBIS/G000007   datacentre@scilifelab.se
+Ok      10.17044/NBIS/G000008   datacentre@scilifelab.se
+Bad     10.5879/BILS/G000001    https://export.uppmax.uu.se/b2011203/pea_gwas/  503 Service Unavailable
+Ok      10.5879/BILS/GA00001    http://srm.swegrid.se/snic/bils/pub/ga00001/
+Ok      10.5879/BILS/P000001    http://webdav.swestore.se/snic/bils/pub/procsdata/
