@@ -1,5 +1,5 @@
 The "validate.pl" Perl script will read the JSON file "issued_dois.json"
-in the current directory and try to validato all the "data_links"
+in the current directory and try to validate all the "data_links"
 therein.
 
 "http" and "https" URLs:

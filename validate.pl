@@ -44,7 +44,8 @@ foreach my $doi ( sort keys( %{ $json->{'DOIs'} } ) ) {
             # It's an email address.
             if ( Email::Valid->address( -address  => $link,
                                         -mxcheck  => 1,
-                                        -tldcheck => 1 ) )
+                                        -tldcheck => 1,
+                                        -fqdn     => 1 ) )
             {
                 $is_ok = 1;
             }
