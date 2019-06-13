@@ -18,7 +18,7 @@ Email addresses:
 
 The script uses the following prerequisite Perl modules:
 
-    * Carp                  (often part of baic Perl installation)
+    * Carp                  (often part of basic Perl installation)
     * Email::Valid
     * IO::File              (often part of basic Perl installation)
     * JSON::PP              (often part of basic Perl installation)
