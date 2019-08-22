@@ -59,7 +59,13 @@
             "data_links": [
                 "datacentre@scilifelab.se"
             ]
+        },
+        "10.17044/NBIS/G000009": {
+            "data_links": [
+                "jennifer.meadows@imbim.uu.se"
+            ]
         }
+
 
     }
 }
