@@ -69,7 +69,28 @@
             "data_links": [
                 "datacentre@scilifelab.se"
             ]
+        },
+        "10.17044/NBIS/G000011": {
+            "data_links": [
+                "datacentre@scilifelab.se"
+            ]
+        },
+        "10.17044/NBIS/G000012": {
+            "data_links": [
+                "jennifer.meadows@imbim.uu.se"
+            ]
+        },
+        "10.17044/NBIS/G000013": {
+            "data_links": [
+                "jennifer.meadows@imbim.uu.se"
+            ]
+        },
+        "10.17044/NBIS/G000014": {
+            "data_links": [
+                "soren.lehmann@ki.se"
+            ]
         }
+
 
 
     }
