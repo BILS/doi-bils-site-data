@@ -72,7 +72,7 @@
         },
         "10.17044/NBIS/G000011": {
             "data_links": [
-                "datacentre@scilifelab.se"
+                "kersli@broadinstitute.org"
             ]
         },
         "10.17044/NBIS/G000012": {
@@ -88,6 +88,16 @@
         "10.17044/NBIS/G000014": {
             "data_links": [
                 "soren.lehmann@ki.se"
+            ]
+        },
+        "10.17044/NBIS/G000015": {
+            "data_links": [
+                "thoas.fioretos@med.lu.se"
+            ]
+        },
+        "10.17044/NBIS/G000016": {
+            "data_links": [
+                "thoas.fioretos@med.lu.se"
             ]
         }
 
